@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #fff;
-  font-family: “Libre Baskerville”, serif;
+  font-family: "Libre Baskerville", serif;
 }
 *,
 *::before,
@@ -11,6 +11,7 @@ html {
 body {
   margin: 0;
 }
+
 .masthead {
   display: flex;
   justify-content: space-between;
@@ -21,16 +22,19 @@ body {
   color: #fff;
   font-size: 1.25rem;
 }
+
 .masthead h1 {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
 }
+
 .masthead img {
   width: 2em;
   height: 2em;
   margin-right: .5rem;
 }
+
 .masthead span {
   width: 9em;
 }
@@ -47,10 +51,12 @@ body {
   border-radius: 1em;
   text-decoration: none;
 }
+
 a:focus {
   outline: .15rem solid #fff;
   outline-offset: .2rem;
 }
+
 .banner {
   display: grid;
   grid-template-columns: 1fr;
@@ -60,10 +66,12 @@ a:focus {
   font-size: 1.5rem;
   background-color: #522806;
 }
+
 .banner img {
   grid-area: banner;
   width: 100%;
 }
+
 .banner div {
   grid-area: banner;
   align-self: center;
@@ -72,6 +80,7 @@ a:focus {
   max-width: 20em;
   text-align: center;
 }
+
 .banner h2,
 .banner p {
   margin: 0 0 1.5rem;
@@ -86,9 +95,11 @@ a:focus {
   font-weight: bold;
   text-decoration: none;
 }
+
 .ship {
   padding: 2rem;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -101,17 +112,21 @@ a:focus {
   font-size: 1.125rem;
   text-align: center;
 }
+
 .card img {
   width: 12em;
   margin: 0 0 1.5rem;
 }
+
 .card h2 {
   margin: 0 0 1.5rem;
 }
+
 .card p {
   max-width: 28em;
   margin: 0 0 1.5rem;
 }
+
 .card a {
   display: inline-block;
   background-color: #BEA59B;
@@ -121,10 +136,12 @@ a:focus {
   font-weight: bold;
   text-decoration: none;
 }
+
 .card a:focus {
   outline: .15rem solid #522806;
   outline-offset: .2rem;
 }
+
 .footer {
   background-color: #522806;
   border-top: .3rem solid #BEA59B;
@@ -133,6 +150,7 @@ a:focus {
   text-align: center;
   padding: 1rem;
 }
+
 .footer * {
   margin: 0;
 }
