@@ -61,7 +61,7 @@ a:focus {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: “banner”;
+  grid-template-areas: "banner";
   color: #fff;
   font-size: 1.5rem;
   background-color: #522806;
